@@ -1,0 +1,89 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* color: green; */
+}
+
+a {
+    /* color: black; */
+    color: inherit;
+}
+
+.light-theme {
+    color: black;
+    background-color: white;
+}
+
+.dark-theme {
+    color: #f0f1f2;
+    background-color: black;
+}
+
+.green-theme {
+    color: #f0ecda;
+    background-color: #128028;
+}
+
+.blue-theme {
+    color: #dde6f0;
+    background-color: #3874b0;
+}
+
+
+
+div {
+    /* border: 1px solid black; */
+}
+
+body {
+    height: 100vh;
+    /* padding-left: 40px; */
+    padding-top: 40px;
+}
+
+h1 {
+    margin-top: 0px;
+}
+
+.page {
+    height: 99.8%;
+    display: flex;
+    flex-direction: column;
+    /* border: 3px; */
+}
+
+.sub-page {
+    height: 99.8%;
+    padding-left: 40px;
+    padding-top: 20;
+    display: flex;
+    flex-direction: column;
+}
+.homepage-blurb {
+    /* padding-left: 40px;
+    padding-top: 40px; */
+    margin: auto;
+    margin-top: 10%;
+}
+
+.footer {
+    padding-bottom: 12px;
+    /* color:#454443; */
+    color: inherit;
+    margin: auto;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.gallery {
+    display: flex;
+    gap: 20px;
+    /* justify-content: space-between; */
+}
+
+.gallery-image {
+    border: 1px black solid;
+}
