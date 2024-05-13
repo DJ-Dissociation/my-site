@@ -10,6 +10,12 @@ a {
     color: inherit;
 }
 
+button {
+    border: 2px;
+    border-radius: 3px;
+    /* padding: 2px 4px; */
+}
+
 .light-theme {
     color: black;
     background-color: white;
@@ -44,6 +50,8 @@ body {
 
 h1 {
     margin-top: 0px;
+    margin-left: -16px;
+    font-size: 36   px;
 }
 
 .page {
@@ -51,15 +59,57 @@ h1 {
     display: flex;
     flex-direction: column;
     /* border: 3px; */
+    /* margin: auto; */
 }
 
 .sub-page {
     height: 99.8%;
-    padding-left: 40px;
+    padding: 0px 40px;
+    /* padding-left: 40px; */
     padding-top: 20;
     display: flex;
     flex-direction: column;
+    /* align-content: center; */
+    /* justify-content: center; */
+    max-width: 1000px;
+    margin: auto;
 }
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0px 80px;
+    flex-wrap: wrap;
+    /* gap: 1000px; */
+}
+
+.gallery a {
+    text-decoration: none;
+}
+
+.gallery-card:hover {
+    opacity: 0.6;
+}
+
+.gallery-image:hover + .card-text {
+    visibility: visible;
+}
+
+.card-text {
+    visibility: hidden; 
+    position: relative;
+    width: fit-content;
+    margin: auto;
+    top: -150px;
+    color: black;
+    font-size: 18px;
+    background: white;
+    padding: 2px 4px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
 .homepage-blurb {
     /* padding-left: 40px;
     padding-top: 40px; */
@@ -85,5 +135,5 @@ h1 {
 }
 
 .gallery-image {
-    border: 1px black solid;
+    border: 3px black solid;
 }
