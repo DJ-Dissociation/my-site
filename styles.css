@@ -11,7 +11,7 @@ a {
 }
 
 button {
-    border: 2px;
+    border: 1px rgb(37, 37, 37) solid;
     border-radius: 3px;
     /* padding: 2px 4px; */
 }
@@ -58,8 +58,10 @@ h1 {
     height: 99.8%;
     display: flex;
     flex-direction: column;
+    padding: 0px 40px;
     /* border: 3px; */
     /* margin: auto; */
+    /* min-width: 10px; */
 }
 
 .sub-page {
@@ -84,8 +86,14 @@ h1 {
     /* gap: 1000px; */
 }
 
+/* .gallery-card {
+    max-height: 230px;
+} */
+
 .gallery a {
-    text-decoration: none;
+    text-decoration: none; 
+    display: block;
+    height: 230px;
 }
 
 .gallery-card:hover {
