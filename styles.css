@@ -77,6 +77,19 @@ h1 {
     margin: auto;
 }
 
+.page-text {
+    margin-bottom: 16px;
+}
+
+.list-content {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 0;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
 .gallery {
     display: flex;
     flex-direction: row;
@@ -84,11 +97,8 @@ h1 {
     padding: 0px 80px;
     flex-wrap: wrap;
     /* gap: 1000px; */
+    margin-bottom: 16px;
 }
-
-/* .gallery-card {
-    max-height: 230px;
-} */
 
 .gallery a {
     text-decoration: none; 
@@ -144,4 +154,9 @@ h1 {
 
 .gallery-image {
     border: 3px black solid;
+}
+
+h4 {
+    /* padding: 0px; */
+    margin: 0px;
 }
