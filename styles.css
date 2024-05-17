@@ -3,6 +3,8 @@ html, body {
     padding: 0px;
     box-sizing: border-box;
     /* color: green; */
+    /* min-width: 1000px; */
+    display: block;
 }
 
 a {
@@ -36,16 +38,12 @@ button {
     background-color: #3874b0;
 }
 
-
-
-div {
-    /* border: 1px solid black; */
-}
-
 body {
     height: 100vh;
     /* padding-left: 40px; */
     padding-top: 40px;
+    display: flex;
+    justify-content: center;
 }
 
 h1 {
@@ -59,22 +57,18 @@ h1 {
     display: flex;
     flex-direction: column;
     padding: 0px 40px;
-    /* border: 3px; */
-    /* margin: auto; */
-    /* min-width: 10px; */
 }
 
 .sub-page {
     height: 99.8%;
     padding: 0px 40px;
-    /* padding-left: 40px; */
     padding-top: 20;
     display: flex;
     flex-direction: column;
-    /* align-content: center; */
-    /* justify-content: center; */
-    max-width: 1000px;
+    max-width: 1000px;  
     margin: auto;
+    /* min-width: 550px; */
+    /* min-width: 550px; */
 }
 
 .page-text {
@@ -88,16 +82,28 @@ h1 {
     flex-wrap: wrap;
     gap: 20px;
     justify-content: space-evenly;
+    flex-basis: 100%;
+}
+
+.list-content>div {
+    width: 30%;
 }
 
 .gallery {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding: 0px 80px;
+    /* padding: 0px 80px; */
     flex-wrap: wrap;
-    /* gap: 1000px; */
-    margin-bottom: 16px;
+    margin-top: 16px;
+    margin-bottom: 32px;
+    gap: 20px;
+    /* min-width: 550px; */
+}
+
+.gallery-image {
+    /* flex: auto; */
+    border: 3px black solid;
 }
 
 .gallery a {
@@ -146,17 +152,13 @@ h1 {
     gap: 20px;
 }
 
-.gallery {
-    display: flex;
-    gap: 20px;
-    /* justify-content: space-between; */
-}
-
-.gallery-image {
-    border: 3px black solid;
-}
-
 h4 {
     /* padding: 0px; */
     margin: 0px;
+}
+
+li {
+    padding-left: 21px;
+    text-indent: -21px;
+
 }
