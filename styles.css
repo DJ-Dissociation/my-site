@@ -77,16 +77,24 @@ h1 {
 
 .list-content {
     display: flex;
-    flex-direction: row;
-    flex: 1 1 0;
+    flex-direction: row; 
     flex-wrap: wrap;
     gap: 20px;
-    justify-content: space-evenly;
-    flex-basis: 100%;
+    justify-content: center;
+    margin: 0 auto;
+    /* max-width: 400px; */
+    /* margin: 0 20px; */
+    /* flex-basis: 100%; */
 }
 
 .list-content>div {
     width: 30%;
+    /* flex: 1 1 calc(30% - 40px); */
+    /* flex: 0 0 30%; */
+    min-width: 200px;
+    /* box-sizing: border-box; */
+    margin: 0 auto;
+    /* justify-content: center; */
 }
 
 .gallery {
@@ -138,7 +146,7 @@ h1 {
     /* padding-left: 40px;
     padding-top: 40px; */
     margin: auto;
-    margin-top: 10%;
+    margin-top: 25%;
 }
 
 .footer {
