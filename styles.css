@@ -97,6 +97,9 @@ h1 {
     /* justify-content: center; */
 }
 
+.section-break {
+    text-align: center;
+}
 .gallery {
     display: flex;
     flex-direction: row;
